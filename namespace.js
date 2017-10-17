@@ -11,8 +11,8 @@ var SON00020 = {
         div.addEventListener("mouseout", hMouse);
 
         function click_Me(ev) {
-            this.backgroundColor = "red";
-            this.borderColor = "yellow";
+            this.backgroundColor = "blue";
+            this.borderColor = "pink";
 
         }
 
