@@ -11,14 +11,13 @@ var SON00020 = {
         div.addEventListener("mouseout", hoverMouse);
 
         function clickNow(ev) {
-            ev.currentTarget.backgroundColor = "red";
+            ev.currentTarget.backgroundColor= "red";
             ev.currentTarget.borderColor = "yellow";
 
         }
 
         function hoverMouse(ev) {
             ev.classList.toggle("highlight");
-
         }
 
     }
