@@ -6,11 +6,11 @@ var SON00020 = {
         div.textContent = "SON00020";
         document.getElementById("boxes").appendChild(div);
 
-        div.addEventListener("click", clickNow);
+        div.addEventListener("click", click_Me);
         div.addEventListener("mouseover", hMouse);
         div.addEventListener("mouseout", hMouse);
 
-        function clickNow(ev) {
+        function click_Me(ev) {
             this.backgroundColor = "red";
             this.borderColor = "yellow";
 
