@@ -6,7 +6,7 @@ var SON00020 = {
       div.textContent = "SON00020";
       document.getElementById("boxes").appendChild(div);
       
-      div.addEventListene("click",clickNow);
+      div.addEventListener("click",clickNow);
       div.addEventListener("mouseover", hoverMouse);
       div.addEventListener("mouseout", hoverMouse);
       
