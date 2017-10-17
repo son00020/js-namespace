@@ -11,15 +11,12 @@ var SON00020 = {
         div.addEventListener("mouseout", hMouse);
 
         function click_Me(ev) {
-            this.backgroundColor = "blue";
-            this.borderColor = "pink";
-
+            this.style.backgroundColor = "blue";
+            this.style.borderColor = "pink";
         }
 
         function hMouse(ev) {
             ev.currentTarget.classList.toggle("highlight");
         }
-
     }
-
 }
