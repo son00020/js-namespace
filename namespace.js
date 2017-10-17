@@ -7,8 +7,8 @@ var SON00020 = {
         document.getElementById("boxes").appendChild(div);
 
         div.addEventListener("click", clickNow);
-        div.addEventListener("mouseover", hoverMouse);
-        div.addEventListener("mouseout", hoverMouse);
+        div.addEventListener("mouseover", hMouse);
+        div.addEventListener("mouseout", hMouse);
 
         function clickNow(ev) {
             this.backgroundColor = "red";
@@ -16,7 +16,7 @@ var SON00020 = {
 
         }
 
-        function hoverMouse(ev) {
+        function hMouse(ev) {
             ev.currentTarget.classList.toggle("highlight");
         }
 
