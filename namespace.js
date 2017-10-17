@@ -17,7 +17,7 @@ var SON00020 = {
         }
 
         function hoverMouse(ev) {
-            ev.classList.toggle("highlight");
+            ev.currentTarget.classList.toggle("highlight");
         }
 
     }
